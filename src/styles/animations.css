@@ -1,0 +1,9 @@
+@keyframes drift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+@keyframes twinkle { 0%, 100% { opacity: .25; } 50% { opacity: .85; } }
+.planet-float { animation: drift 9s ease-in-out infinite; }
+.floating-art { animation: drift 8s ease-in-out infinite; }
+.sky-star { animation: twinkle 7s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

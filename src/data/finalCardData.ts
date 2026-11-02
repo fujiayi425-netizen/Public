@@ -1,0 +1,20 @@
+/** 昵称、日期、照片、录音均等待你提供；不会加载生成的情侣照片或语音。 */
+export const finalCardData = {
+  from: '【你的昵称】',
+  to: '【对方的昵称】',
+  anniversaryDate: '【纪念日期】',
+  title: '2000 DAYS',
+  subtitle: 'TO MY FAVORITE PERSON',
+  tagline: '2000 days down, forever to go.',
+  message: '【在这里填写你的纪念日祝福】\n愿每一个平凡的明天，都能继续和你一起度过。',
+  photo: '/images/final-photo.jpg',
+  photoAlt: '待替换的纪念日合照',
+  voiceSrc: '/audio/voice.mp3',
+  bgmSrc: '/audio/bgm.mp3',
+  voiceTitle: 'A VOICE MESSAGE FOR YOU',
+  voiceDescription: '有些话，想亲口说给你听。',
+  finalEnglish: 'If I could choose again, I would still choose you.',
+  finalChinese: '如果可以重新选择一次，我还是会选择你。',
+  finalButton: 'TO OUR NEXT 2000 DAYS ♥',
+  ending: 'TO BE CONTINUED...',
+};
